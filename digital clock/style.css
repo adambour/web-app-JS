@@ -1,0 +1,25 @@
+@font-face {
+    font-family: digital-clock;
+    src: url(DIGITALDREAMSKEWNARROW.ttf);
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+
+#clock {
+    font-family: digital-clock;
+    font-size: 5rem;
+    color: rgb(50, 224, 224);
+    display: flex;
+}
+
+@media screen and (max-width:600px) {
+    #clock {
+        font-size: 3rem;
+    }
+}
